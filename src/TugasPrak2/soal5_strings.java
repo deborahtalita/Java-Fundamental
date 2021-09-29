@@ -1,7 +1,7 @@
 /**
  * Nama	:	Marpaung, Deborah Talita Kum
  * NIM	:	201511014						
- * Kelas:	D3-2A 10.34
+ * Kelas:	D3-2A
 */
 
 package TugasPrak2;

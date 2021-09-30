@@ -14,16 +14,16 @@ public class soal5_bukaTutupJalan {
 		Scanner scan = new Scanner(System.in);
 		
 		String input = scan.nextLine();
-		// menghilangkan spasi pada input 4 plat nomor
+		// menghilangkan spasi pada input 4 plat mobil
 		String plat = input.replaceAll("\\s","");
 		// convert string ke long
 		long platMobil = Long.parseLong(plat);
 		
 		long hasil = ((platMobil - 999999) % 5);
 		if (hasil == 0) {
-			System.out.println("berhasil"); // jika mod = 0
+			System.out.println("Jalan"); // jika mod = 0
 		} else {
-			System.out.println("gagal"); // jika mod != 0
+			System.out.println("Berhenti"); // jika mod != 0
 		}
 		
 	} 

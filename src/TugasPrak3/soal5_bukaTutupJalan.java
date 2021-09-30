@@ -26,6 +26,6 @@ public class soal5_bukaTutupJalan {
 			System.out.println("gagal"); // jika mod != 0
 		}
 		
-	}
+	} 
 
 }

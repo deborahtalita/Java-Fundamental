@@ -13,12 +13,24 @@ public class soal2_io {
 		// buat keyboard
 		Scanner scan = new Scanner(System.in);
 		
+		// inisialisasi array
+		String[] word = new String[3];
+		int[] num = new int[3];
+		
+		for(int i = 0; i < 3; i++) {
+			word[i] = scan.next(); // input string
+			num[i] = scan.nextInt(); // input angka
+			if (word[i].length() > 15) {
+				System.out.println("string error"); // panjang string maks 15 char
+			}
+			if (num[i] < 0 && num[i] > 999) {
+				System.out.println("number error"); // batas angka 0<num<999
+			}
+		}
 		System.out.println("================================");
-		for(int i = 0; i < 3; i++)
+		for(int j = 0; j < 3; j++)
 		{
-			String word = scan.next();
-			int num = scan.nextInt();
-			System.out.printf("%-15s%03d\n", word, num);
+			System.out.printf("%-15s%03d\n", word[j], num[j]);
 		}
 		System.out.println("================================");
 	}

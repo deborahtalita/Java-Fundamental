@@ -23,7 +23,7 @@ public class soal2_io {
 			if (word[i].length() > 15) {
 				System.out.println("string error"); // panjang string maks 15 char
 			}
-			if (num[i] < 0 && num[i] > 999) {
+			if (num[i] < 0 || num[i] > 999) {
 				System.out.println("number error"); // batas angka 0<num<999
 			}
 		}

@@ -25,9 +25,9 @@ public class soal4_gajiAgent {
 		} else if (jmlItem >= 40) { 
 			gajiTotal = gajiPokok + (jmlItem * hargaItem * 25 / 100); // bonus 25%
 		} else if (jmlItem < 15) {
-			gajiTotal = gajiPokok - (-(jmlItem-15) * hargaItem * 15 / 100); // bonus 15%
+			gajiTotal = gajiPokok - (-(jmlItem-15) * hargaItem * 15 / 100); // denda 15%
 		} else {
-			gajiTotal = gajiPokok + (jmlItem * hargaItem * 10 / 100); // denda 10%
+			gajiTotal = gajiPokok + (jmlItem * hargaItem * 10 / 100); // bonus 10%
 		}
 		System.out.println(gajiTotal);
 	}

@@ -17,7 +17,8 @@ public class Restaurant {
 		System.out.println("Menu makanan :");
 		for(int i = 0; i <= id; i++) {
 			if(!isOutOfStock(i)) {
-				System.out.println(menu[i].getNama_makanan() + "[" + menu[i].getStok() + "]" + "\tRp. " + menu[i].getHarga_makanan());
+				System.out.println(menu[i].getNama_makanan() + "[" + menu[i].getStok() + "]" + "\tRp. " + 
+				menu[i].getHarga_makanan());
 			}
 		}
 	}

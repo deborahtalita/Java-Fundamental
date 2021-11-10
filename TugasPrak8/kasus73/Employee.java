@@ -14,7 +14,7 @@ public class Employee extends StaffMember{
 	
 	// Returns information about an employee as a string
 	public String toString() {
-		String result = super.toString(); 
+		String result = super.toString();
 		
 		result += "\nSocial Security Number: " + socialSecurityNumber;
 		

@@ -24,7 +24,7 @@ public class Staff {
 		((Commission)staffList[7]).addSales(950);
 	}
 	
-	/// Pays all staff members 
+	/// Pays all staff members
 	public void payday() {
 		double amount;
 		for (int count = 0; count < staffList.length; count++) {

@@ -28,5 +28,5 @@ public class Commission extends Hourly {
 		
 		result += "\nTotal Sales: " + totalSales;
 		return result;
-	} 
+	}
 }

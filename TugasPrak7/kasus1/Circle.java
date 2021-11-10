@@ -13,7 +13,7 @@ public class Circle {
 		color = "Red";
 	}
 	
-	/** Constructs a Circle insatance with the given radius and default color */
+	/** Constructs a Circle instance with the given radius and color */
 	public Circle (double r) {
 		radius = r;
 		color = "red";

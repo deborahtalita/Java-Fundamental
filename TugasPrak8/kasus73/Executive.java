@@ -22,7 +22,7 @@ public class Executive extends Employee {
 		double payment = super.pay() + bonus;
 		
 		bonus = 0;
-		
+		 
 		return payment;
 	}
 }

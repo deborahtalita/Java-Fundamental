@@ -10,7 +10,7 @@ public class TestCylinder {
 		System.out.println("Cylinder:"
 				+ " radius=" + c1.getRadius()
 				+ " height=" + c1.getHeight()
-				+ " base area" + c1.getArea()
+				+ " base area=" + c1.getArea()
 				+ " volume=" + c1.getVolume());
 		
 		// Declare and allocare a new instance of cylinder

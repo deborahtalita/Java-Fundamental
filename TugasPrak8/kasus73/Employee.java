@@ -10,6 +10,7 @@ public class Employee extends StaffMember{
 	{
 		super(eName, eAddress, ePhone);
 		socialSecurityNumber = socSecNumber;
+		payRate = rate;
 	}
 	
 	// Returns information about an employee as a string

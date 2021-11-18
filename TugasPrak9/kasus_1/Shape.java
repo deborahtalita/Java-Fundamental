@@ -10,6 +10,6 @@ public abstract class Shape {
 	abstract double area();
 	
 	public String toString() {
-		return "The shape name is " + shapeName;
+		return shapeName;
 	}
 }

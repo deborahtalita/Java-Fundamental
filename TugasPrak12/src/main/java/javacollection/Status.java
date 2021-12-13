@@ -1,8 +1,9 @@
-package prak12;
+package javacollection;
 
 public class Status {
 	private int code;
 	private String description;
+	
 	public int getCode() {
 		return code;
 	}

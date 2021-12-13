@@ -1,4 +1,4 @@
-package prak12;
+package javacollection;
 
 public class City {
 	private String origin;
@@ -17,3 +17,4 @@ public class City {
 		this.destination = destination;
 	}
 }
+

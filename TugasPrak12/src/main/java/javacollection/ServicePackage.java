@@ -1,4 +1,4 @@
-package prak12;
+package javacollection;
 
 public class ServicePackage {
 	private String service;
